@@ -25,17 +25,17 @@ git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 
 コマンドパレットから `template: New File/Folder From Template`を実行
 
-TODO 画像
+<img width="345" alt="スクリーンショット 2022-01-22 午後4 27 02" src="https://user-images.githubusercontent.com/750091/150629488-784b29cc-6947-4654-bdc8-2e7c27740c10.png">
 
 作業ディレクトリ、タイトル、著者名を入力して `Confirm`
 
-VSCode  `ファイル→ファイルでワークスペースを開く` で、上記ディレクトリの `*.code-workspace`を開く。
+<img width="905" alt="スクリーンショット 2022-01-22 午後4 30 09" src="https://user-images.githubusercontent.com/750091/150629498-cd66ef76-0ba5-48f8-ac63-aee2c0c2372b.png">
 
-
+メニュー `ファイル→ファイルでワークスペースを開く` で、上記ディレクトリの `*.code-workspace`を開く。
 
 ## 組版の方法
 
-### 使用するプラグイン
+### 使用する VSCodeプラグイン
 
 * Markdown PDF
   * タイトルどおり、markdown -> pdfの変換を行う。

@@ -64,8 +64,46 @@ pdf化したい markdownファイルを files.jsonに列挙する。jsonオブ�
 markdown-pdfで INPUT.mdを PDF化する。output以下にファイルが作成される。
 
 
+## Windowsでの使用
+
+MSYS2を導入し、 python3 をpacmanでインストールする。
+
+`settings.json`に以下の設定を追加する。
+```
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "MSYS2": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2",
+```
+
+* [Visual Studio Code の統合ターミナルで MSYS2 の bash を選択できるようにする](https://qiita.com/chirimen/items/04e2e10c86c9ecd1e158)
 ## 参考
 * [VSCodeとMarkdownで技術同人誌書いたので拡張機能とかまとめ](https://qiita.com/reona396/items/40b234108f7664267db8#comment-2daa99ab4468e7961ae6)
 * [Markdown PDF のスタイル(CSS)を変える方法](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
 * [Markdownにおける目次(TOC)の作成に、Markdown All in Oneが便利だった件](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d) ... 見出し番号を付ける方法
 * [VS CodeでMarkdownを書くために便利な拡張機能Markdown All in One](https://tonari-it.com/vscode-markdonw-all-in-one/)
+

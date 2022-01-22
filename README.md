@@ -38,7 +38,7 @@ git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 ### 使用する VSCodeプラグイン
 
 * Markdown PDF
-  * タイトルどおり、markdown -> pdfの変換を行う。
+  * markdown → pdfの変換を行う。
 
 * Markdown TOC, Markdown All in One (optional)
   * 目次作成。どちらか好きな方を。
@@ -51,7 +51,7 @@ markdownファイルを書く。 章ごとにファイルに分けてもいい�
 
 ### files.jsonの編集
 
-pdf化したい markdownファイルを順に files.jsonに列挙する。jsonオブジェクトは文字列の配列。
+pdf化したい markdownファイルを files.jsonに列挙する。jsonオブジェクトは文字列の配列。
 
 ### make
 

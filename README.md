@@ -68,3 +68,4 @@ markdown-pdfで INPUT.mdを PDF化する。output以下にファイルが作成�
 * [VSCodeとMarkdownで技術同人誌書いたので拡張機能とかまとめ](https://qiita.com/reona396/items/40b234108f7664267db8#comment-2daa99ab4468e7961ae6)
 * [Markdown PDF のスタイル(CSS)を変える方法](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)
 * [Markdownにおける目次(TOC)の作成に、Markdown All in Oneが便利だった件](https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d) ... 見出し番号を付ける方法
+* [VS CodeでMarkdownを書くために便利な拡張機能Markdown All in One](https://tonari-it.com/vscode-markdonw-all-in-one/)

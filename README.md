@@ -53,11 +53,11 @@ markdownファイルを書く。 章ごとにファイルを分けてもいい�
 
 pdf化したい markdownファイルを files.jsonに列挙する。jsonオブジェクトは文字列の配列。
 
-### make
+### ファイル結合
 
-ターミナルから makeコマンド実行。 ファイルが結合され INPUT.mdが作成される。
+`command + ctrl + b` でタスク選択 `concat`を選んでファイルを結合した INPUT.mdを作成する。
 
-必要なら INPUT.mdを編集して目次を作成する。
+その後必要なら INPUT.mdを編集して目次を作成する。
 
 ### pdf化
 

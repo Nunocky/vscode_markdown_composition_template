@@ -63,3 +63,7 @@ pdf化したい markdownファイルを files.jsonに列挙する。jsonオブ�
 
 markdown-pdfで INPUT.mdを PDF化する。output以下にファイルが作成される。
 
+
+## 参考
+* [VSCodeとMarkdownで技術同人誌書いたので拡張機能とかまとめ](https://qiita.com/reona396/items/40b234108f7664267db8#comment-2daa99ab4468e7961ae6)
+* [Markdown PDF のスタイル(CSS)を変える方法](https://h-s-hige.hateblo.jp/entry/20190405/1554467885)

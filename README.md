@@ -47,7 +47,7 @@ git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 
 ### ファイル編集
 
-markdownファイルを書く。 章ごとにファイルに分けてもいい。
+markdownファイルを書く。 章ごとにファイルを分けてもいい。
 
 ### files.jsonの編集
 

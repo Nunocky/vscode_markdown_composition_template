@@ -7,6 +7,7 @@ VSCodeで markdownを使った組版を行うワークスペースのテンプ�
 
 [yuanhjty/code-template-tool](https://github.com/yuanhjty/code-template-tool)を VSCodeにインストール
 
+<img width="607" alt="スクリーンショット 2022-01-22 午後4 15 30" src="https://user-images.githubusercontent.com/750091/150629225-2e4e348f-d4db-4700-81b8-389a63874b13.png">
 
 このプロジェクトを `~/.vscode/templates`以下に展開
 
@@ -16,6 +17,8 @@ git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 ```
 
 VSCodeで `Template: reload templates`する
+
+<img width="249" alt="スクリーンショット 2022-01-22 午後4 17 09" src="https://user-images.githubusercontent.com/750091/150629236-bc110a3c-7a05-4277-918c-514701bcd540.png">
 
 
 ## 組版の方法

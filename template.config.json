@@ -1,0 +1,21 @@
+{
+    "name": "Markdown Composition Template",
+    "ignore": [".git", "*~"],
+    "allowExistingFolder": false,
+    "variables": [
+        {
+            "name": "title",
+            "defaultValue": "My Great Project",
+            "style": {
+                "noTransformation": true
+            }
+        },
+        {
+            "name": "author",
+            "defaultValue": "Project X",
+            "style": {
+                "noTransformation": true
+            }
+        }
+    ]
+}

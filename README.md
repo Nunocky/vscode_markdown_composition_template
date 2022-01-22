@@ -1,6 +1,6 @@
 # Markdown composition template for VSCode
 
-VSCodeで markdownを使った組版を行うワークスペースのテンプレート
+VSCodeで markdownを使った組版を行うワークスペースを作成するためのテンプレート
 
 
 ## 導入

@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "concat",
+            "detail": "files.jsonに記述された順にファイルを INPUT.mdに連結する",
+            "type": "shell",
+            "command": "python3 bin/concat.py",
+            "group": "build"
+        },
+        {
+            "label": "clean",
+            "detail": "生成されたファイルを削除",
+            "type": "shell",
+            "command": [
+                "rm -f INPUT.md output/INPUT.pdf",
+                "rm -f output/INPUT.pdf"
+            ],
+            "group": "build"
+        }
+    ]
+}

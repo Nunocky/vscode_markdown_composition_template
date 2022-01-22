@@ -43,7 +43,7 @@ git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 * Markdown TOC, Markdown All in One (optional)
   * 目次作成。どちらか好きな方を。
   * Markdown TOCはセクション番号を付与してくれるが、レイアウトがいまいち
-  * Markdown All in One は markdown 編集に便利な機能も提供してくれるが、セクション番号は付けてくれない。
+  * Markdown All in One は markdown 編集に便利な機能も提供してくれる。
 
 ### ファイル編集
 

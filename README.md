@@ -16,9 +16,21 @@ cd ~/.vscode/templates
 git clone git@github.com:Nunocky/vscode_markdown_composition_template.git
 ```
 
-VSCodeで `Template: reload templates`する
+コマンドパレットから `template: Reload Templates` を実行
 
 <img width="249" alt="スクリーンショット 2022-01-22 午後4 17 09" src="https://user-images.githubusercontent.com/750091/150629236-bc110a3c-7a05-4277-918c-514701bcd540.png">
+
+
+## テンプレートの利用方法
+
+コマンドパレットから `template: New File/Folder From Template`を実行
+
+TODO 画像
+
+作業ディレクトリ、タイトル、著者名を入力して `Confirm`
+
+VSCode  `ファイル→ファイルでワークスペースを開く` で、上記ディレクトリの `*.code-workspace`を開く。
+
 
 
 ## 組版の方法

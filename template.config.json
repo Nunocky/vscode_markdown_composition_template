@@ -1,6 +1,8 @@
 {
     "name": "Markdown Composition Template",
-    "ignore": [".git", "*~"],
+    "ignore": [
+        ".git"
+    ],
     "allowExistingFolder": false,
     "variables": [
         {

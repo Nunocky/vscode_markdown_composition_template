@@ -8,7 +8,10 @@
 		"markdown-pdf.styles": [
 			"./markdown-pdf.css"
 		],
-		"markdown-pdf.outputDirectory": "output",
+		"markdown-pdf.type": [
+			"pdf",
+			"html"
+		],
 		"markdown-pdf.margin.top": "2.5cm",
 		"markdown-pdf.margin.bottom": "2.5cm",
 		"markdown-pdf.printBackground": true,

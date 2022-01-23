@@ -14,7 +14,7 @@ def lastone(iterable):
     yield last, True
 
 
-with open("INPUT.md", "w") as out : 
+with open("___title___.md", "w") as out : 
     with open("files.json", "r") as json_inp:
         fileList = json.load(json_inp)
 
